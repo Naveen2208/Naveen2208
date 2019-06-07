@@ -16,6 +16,7 @@ public class HashmapExample {
 		hashmap_list.put(4, "Abhishek");
 		hashmap_list.put(5, "Akhil");
 		hashmap_list.put(6, "Lithin");
+System.out.println("Branch Set");
 		System.out.println("The names are:");
 for(Map.Entry me: hashmap_list.entrySet()) {
 	System.out.println(me.getKey()+" "+me.getValue());
